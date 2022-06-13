@@ -1,0 +1,34 @@
+main{
+    display: flex;
+}
+.categories{
+    display: flex;
+    flex: 0 1 256px;
+    flex-direction: column;
+    font-family: dosis;
+    margin-top: 10px;
+    
+
+
+}
+.categories a{
+    /* display: flex; */
+    text-decoration: none;
+    font-family: Dosis;
+    /* text-align: center; */
+    margin: 0 1em .5em;
+    padding: 1em;
+    text-transform: capitalize;
+    /* margin-bottom: 5px; */
+    background-color: #44b;
+    color: white;
+    /* padding: 2px; */
+    /* width: 100px; */
+    height: 60px;
+    /* align-self: center;
+     */
+    
+}
+.categories a:hover{
+    box-shadow: 0 2px 5px -2px black;
+}

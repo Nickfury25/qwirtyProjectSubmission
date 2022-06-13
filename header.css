@@ -1,0 +1,97 @@
+.main-nav{
+display: flex;
+background-color: #44b;
+justify-content: space-between;
+font-family: Dosis;
+
+}
+.full-width{
+    display: none;
+}
+.short-width{
+    display: flex;
+}
+.sub-nav{
+display: flex;
+justify-content: space-between;
+background-color: darkgray;
+font-family: dosis;
+margin-top:20px;
+margin-bottom:20px;
+padding-bottom:20px;
+
+}
+input{
+    flex-grow:1;
+
+}
+.search-form{
+    display:flex;
+    flex-grow: 1;
+    margin-top:30px;
+    margin-bottom:30px;
+    border-bottom:solid;
+    border-color: #44b;
+    border-width: 2px;
+    
+   
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+
+}
+.nav-list a{
+    padding:10px;
+    border-right:solid;
+    border-color:white;
+    color:white;
+    text-decoration: none;
+    
+}
+.nav-list li:last-of-type a{
+    border-right:none;
+}
+.company-name{
+    font-size: 40px;
+    color:#44b;
+    padding:10px;
+    margin-bottom:10px;
+    padding-top:25px;
+    margin-left: 30px;
+    margin-right: 100px;
+    font-family: "Cormorant Garamond";
+}
+.material-icons{
+    background-color:#44b;
+    color:white;
+    padding:5px;
+    border: none;
+}
+.credit-offer{
+    background-color: red;
+    color:white;
+    margin:20px;
+    padding:10px;
+    font-size:20px;
+    text-decoration: none;
+    margin-top: 30px;  
+       
+}
+
+
+button{
+    border:none;
+    
+}
+ul{
+    list-style-type: none;
+}
+@media(min-width: 768px){
+    .short-width{
+        display: none;
+    }
+    .full-width{
+        display: flex;
+    }
+}

@@ -1,0 +1,59 @@
+.items{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    font-family: open-sans;
+    flex: 1,0,auto;
+}
+.item{
+    display: flex;
+    flex: 1,0,400px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    flex-flow: column ;
+    box-shadow: 0 2px 5px -2px black;
+    font-family: inherit;
+    width:400px;
+    padding-top: 10px;
+}
+.item-name{
+    display: flex;
+    background-color: #44b;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+
+}
+.fact-line{
+    background-color: #44b;
+    color: white;
+    
+}
+.add-item{
+    background-color: rgb(30, 30, 132);
+    border-radius: 25px;
+    height: 40px;
+    width: 40px;
+   padding:10px;
+ 
+}
+.item-description{
+    background-color: darkgray;
+    font-size:120%;
+    padding: 15px;
+}
+.fact-name{
+    font-weight: bold;
+    margin-right:10px;
+}
+@media (max-width: 768px){
+   .item{
+    flex-basis: 100%;
+    font-size: 30px;
+    }
+    .items{
+        flex-direction:row;
+    }
+}
